@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+.links a {
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.4rem 0.5rem;
+  color: var(--white);
+  color: var(--blue);
+}
+.links a:hover {
+  color: var(--white);
+}
+.gradient {
+  position: absolute;
+  width: 800px;
+  height: 150px;
+  margin: auto;
+  background-color: var(--blue);
+  filter: blur(100px);
+  z-index: -1;
+  top: -140px;
+}
+.active {
+  background-color: var(--purple-gray) !important;
+  color: var(--white) !important;
+  border-radius: 15px;
+}

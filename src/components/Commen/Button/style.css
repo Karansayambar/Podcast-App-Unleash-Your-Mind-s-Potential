@@ -1,0 +1,31 @@
+.custom-btn {
+  background-color: var(--theme);
+  color: var(--white);
+  border: 2px solid var(--purple-grey);
+  border-radius: 0.25rem;
+  padding: 0.7rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 200px;
+}
+.btn-width-small {
+  width: 22.5%; /* Define the width you want for small buttons */
+}
+
+.btn-width-medium {
+  width: 45%; /* Define the width you want for medium buttons */
+}
+
+.btn-width-large {
+  width: 90%; /* Define the width you want for large buttons */
+}
+.custom-btn:hover {
+  background-color: var(--white);
+  color: var(--theme);
+}
